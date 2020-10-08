@@ -1,0 +1,41 @@
+void setup()
+{
+  size(500, 250);
+  background(255);
+  draw();
+}
+
+void draw()
+{
+
+  
+
+
+{
+  
+  fill(100, 100, 97);
+  rect(45, 0,  50, 32); // Head
+  rect(45, 32, 50, 50); // Body
+  line(90, 20, 50, 20);// Mouth
+
+  
+  rect(33, 32, 12, 42); // Left arm
+  rect(95, 32, 12, 42); // Right arm
+  
+  rect(33, 72, 12, 14); // Left hand 
+  rect(95, 72, 12, 14); // Right hand
+  
+  rect(45, 82, 14, 40); // Left leg
+  rect(81, 82, 14, 50); // Right leg
+  
+  rect(40,120,20,20);   // Left foot
+  rect(80,120,20,20);   // Right foot
+  
+  fill(245, 17, 33);
+  ellipse(55, 10, 13, 12); // Left eye 
+  ellipse(85, 10, 13, 12); // Right eye
+  
+ 
+}
+
+}
